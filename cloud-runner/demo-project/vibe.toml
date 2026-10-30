@@ -1,0 +1,7 @@
+[project]
+name = "demo"
+version = "0.0.1"
+authors = ["runner"]
+
+[requires.packages]
+"org.vibevm.world/redbook" = "^1.0.0"

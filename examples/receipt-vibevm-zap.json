@@ -1,0 +1,28 @@
+{
+ "schema": 1,
+ "identity": {
+  "project": "my-sandbox"
+ },
+ "profile": "default",
+ "target": "dada-cloud",
+ "generation": 1,
+ "artifact_digest": "4f13748fc56296a6c153d45f2548c994cf3f491efa531641c7420b60773f7dbf",
+ "provider": {
+  "key": "org.dada/cloud",
+  "version": "0.2.0",
+  "content_hash": "c7dea1a111b056767bcecd6ed1ab08f9d8bb983947f60454acdab7aba07aac7c"
+ },
+ "desired_config_digest": "9ced98b8eb457a4edbf66d9c3df69260f3b25fd841e264f16a8a9e64f952704d",
+ "scope": "remote",
+ "resources": [
+  {
+   "resource": "dada:my-sandbox/prod/vibevm-zap",
+   "post_digest": "5eda104282dd1dc8722790697385e1617ab11f6fc568c563b2dd470bc470f095"
+  }
+ ],
+ "reversible": true,
+ "applied_at": "2026-10-30T00:45:26Z",
+ "status": "verified",
+ "evidence": "create: GET https://vibevm-zap.example.com -> 200 after 99s",
+ "finalized_at": "2026-10-30T00:45:26Z"
+}
